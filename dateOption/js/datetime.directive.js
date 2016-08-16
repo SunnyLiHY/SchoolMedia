@@ -4,8 +4,7 @@ angular.module('core',[])
     .directive("datetime",  function() {
         return {
             restrict: "AE",
-            templateUrl: "dateOption/datetime.template.html",
-            // template:"<div>dddd</div>",
+            templateUrl: "datetime.template.html",
             replace: true,
             //@单向文本绑定，=双向绑定，&在父scope中执行函数
             scope: {},
