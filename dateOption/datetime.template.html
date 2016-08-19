@@ -1,14 +1,22 @@
 <div class="tsa-datetime-container">
-    <input type="text" class="form-control input-sm tsa-datetime-input">
+    <input type="text" class="form-control input-sm tsa-datetime-input" placeholder="时间区间" readonly>
     <div class="tsa-dropdown">
+        
+        <ul class="tsa-daysrange-container">    
+            <li class="li-range li-range-active">今天</li>
+            <li class="li-range">7天</li>
+            <li class="li-range">14天</li>
+            <li class="li-range">30天</li>
+        </ul>
+
         <div class="tsa-datetime-row">
             <div class="tsa-calender"></div>
             <div class="tsa-calender"></div>
         </div>
         <div class="tsa-datetime-footer">
-            <button type="button" class="btn btn-sm btn-default">取消</button>
             <button type="button" class="btn btn-sm btn-success">确认</button>
         </div>
     </div>
 </div>
+
 
